@@ -120,15 +120,16 @@ header
 }
 .blockinblock
 {
+    margin: 10px;
     display: flex;
 }
 .liseret_exp_form
 {
+    margin: 20px;
+    padding: 0;
     width: 15px;
-    height: auto;
     border-radius: 10px;
     background-color: rgb(5, 35, 170);
-    margin-right: 20px;
 }
 /*---------------------------------*/
 footer
@@ -142,9 +143,17 @@ footer
 }
 #bloc_centre_interet
 {
-    margin-top: 3%;
+    margin-top: 5%;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 3%;
+}
+@media only screen and (max-width : 600px) 
+{
+    #bloc_experiences_formations
+    {
+        display: flex;
+        flex-direction: column;
+    }
 }
