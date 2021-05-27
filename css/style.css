@@ -56,7 +56,7 @@ header
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid rgb(5, 35, 170);
     border-radius: 50px;
     width: 175px;
     height: 40px;
@@ -68,4 +68,35 @@ header
     height: 250px;
     border: 10px solid white;
     border-radius: 100%;
+}
+/*----------------------------------------------------*/
+#bloc_competences
+{
+    margin-top: 3%;
+    padding-bottom: 2%;
+    width: 100%;
+    height: auto;
+    background-color: rgb(5, 35, 170);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#titre
+{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 300px;
+    height: 75px;
+    color: black;
+}
+#bloc_competences_lang
+{
+    text-align: center;
 }
