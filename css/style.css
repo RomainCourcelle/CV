@@ -110,3 +110,23 @@ header
     width: 300px;
 }
 /*-----------------------------------------------------*/
+#bloc_experiences_formations
+{
+    margin-top: 3%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.blockinblock
+{
+    display: flex;
+}
+.liseret_exp_form
+{
+    width: 15px;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(5, 35, 170);
+    margin-right: 10px;
+}
