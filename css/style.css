@@ -167,12 +167,12 @@ footer
     #bloc_competences
     {
         margin-top: 10%;
-        padding-left: 10px;
-        padding-right: 10px;
     }
     #bloc_competences_lang
     {
         width: 400px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .barre_competences
     {
