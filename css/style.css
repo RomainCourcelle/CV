@@ -108,6 +108,7 @@ header
 .barre_competences
 {
     width: 300px;
+    height: 100px;
 }
 /*-----------------------------------------------------*/
 #bloc_experiences_formations
