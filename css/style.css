@@ -104,6 +104,7 @@ header
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    justify-content: space-around;
 }
 .barre_competences
 {
@@ -166,6 +167,8 @@ footer
     #bloc_competences
     {
         margin-top: 10%;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     #bloc_competences_lang
     {
@@ -173,10 +176,8 @@ footer
     }
     .barre_competences
     {
-        width: 175px;
+        width: 165px;
         height: 115px;
-        margin-left: 10px;
-        margin-right: 10px;
     }
 
 
