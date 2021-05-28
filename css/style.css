@@ -183,4 +183,10 @@ footer
         display: flex;
         flex-direction: column;
     }
+
+    #bloc_centre_interet
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
