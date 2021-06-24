@@ -42,6 +42,9 @@ header
     margin-top: 20px;
 
 }
+#presentation {
+    padding-left: 50px;
+}
 .bandelette_bleu_head
 {
     width: 100%;
@@ -173,7 +176,12 @@ footer
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        text-align: center;
     }
+    #presentation {
+        padding: 0 40px;
+    }
+
     #boutt_contact_pc {
         display: none;
     }
