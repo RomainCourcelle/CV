@@ -6,7 +6,7 @@ body
 h1
 {
     font-family: 'Raleway', sans-serif;
-    font-size: 400%;
+    font-size: 350%;
     margin: 0;
 }
 h2
@@ -20,7 +20,7 @@ h3
     font-family: 'Raleway', sans-serif;
 
 }
-p
+p, li, a
 {
     font-family: 'Open Sans', sans-serif;
 }
@@ -38,10 +38,9 @@ header
 {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
+
 }
 .bandelette_bleu_head
 {
@@ -49,7 +48,7 @@ header
     height: 10px;
     background-color: rgb(5, 35, 170);
 }
-#boutt_contact
+.boutt_contact
 {
     cursor: pointer;
     background-color: rgb(5, 35, 170);
@@ -60,14 +59,19 @@ header
     border-radius: 50px;
     width: 175px;
     height: 40px;
+    transition: all 400ms;
+}
+.boutt_contact:hover
+{
+    transform: scale(1.1);
 }
 #img_profil
 {
-    background-image: url("fonds/photoprofil.png");
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border: 10px solid white;
     border-radius: 100%;
+    object-fit: cover;
 }
 /*----------------------------------------------------*/
 #bloc_competences
@@ -154,13 +158,32 @@ footer
     justify-content: space-evenly;
     margin-bottom: 3%;
 }
+#boutt_contact_phone {
+    display: none;
+}
+.logo_footer {
+    width: 75px;
+}
+/*--------------------------------------*/
 @media only screen and (max-width : 600px) 
 {
     #bloc_header
     {
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
+    }
+    #boutt_contact_pc {
+        display: none;
+    }
+    .boutt_contact
+    {
+        transition: none;
+    }
+    .boutt_contact:hover
+    {
+        transform: none;
     }
 
     #bloc_competences
@@ -193,5 +216,9 @@ footer
     {
         display: flex;
         flex-wrap: wrap;
+    }
+    #boutt_contact_phone {
+        display: flex;
+        margin-bottom: 2%;
     }
 }
